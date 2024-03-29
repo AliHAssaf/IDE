@@ -1,0 +1,41 @@
+#logo{
+    max-width: 75px;
+    max-height: 50px;
+    object-fit: contain;
+    border-radius: 50px;
+}
+main{
+    text-align: center;
+}
+#code-area{
+    width: 95%;
+    min-height:300px;
+    border: 1px dashed grey;
+    border-radius: 8px;
+    box-shadow: 10px 10px 15px ;
+    margin: 10px;
+}
+#buttons{
+    display: block;
+    justify-self: center;
+}
+#buttons button{
+    width: 95%;
+    margin: 5px;
+    box-shadow: 10px 3px 15px;
+    border: none;
+    border-radius: 20px;
+    padding: 3px;
+}
+#run{
+    background-color: green;
+}
+#delete{
+    background-color: red;
+}
+#output-title{
+    padding: 5px;
+    border-top: 4px solid blue;
+    border-bottom: 4px solid blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
